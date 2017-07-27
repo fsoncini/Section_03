@@ -11,3 +11,6 @@ BuildingEscape_NEW/Content/StarterContent/
 ###Visual Studio Generated Files###
 
 *.VC.db
+*.suo
+*.VC.opendb
+*.sln
