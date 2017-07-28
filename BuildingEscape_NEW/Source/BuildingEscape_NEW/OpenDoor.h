@@ -42,7 +42,6 @@ private:
 	//Find owning actor
 	AActor* Owner = GetOwner();
 
-	AActor* ActorThatOpens;
-
-
+	//Returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 };
