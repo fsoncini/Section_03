@@ -31,17 +31,12 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FOnOpenRequest OnOpenRequest;
 
-private:
+private:	
 	UPROPERTY(EditAnywhere)
-	float OpenAngle = 90.0f;
-	
-	UPROPERTY(EditAnywhere)
-		ATriggerVolume* PressurePlate;
+	ATriggerVolume* PressurePlate;
 
 	UPROPERTY(EditAnywhere)
-	float DoorCloseDelay = 1.0f;
-
-	float LastDoorOpenTime;
+	float TriggerMass = 30.f;
 
 	//Find owning actor
 	AActor* Owner = GetOwner();
